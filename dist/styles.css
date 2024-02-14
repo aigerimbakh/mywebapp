@@ -1,0 +1,116 @@
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
+  \******************************************************************/
+ 
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+ }
+/*  
+ header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+ }
+ 
+ nav ul {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ nav ul li {
+   display: inline;
+   margin-right: 10px;
+ }
+ 
+ nav ul li a {
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ main {
+   padding: 20px;
+ }
+
+  */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+ }
+
+ h1 {
+    margin: 0;
+    font-size: 2.5em;
+ }
+
+ .hero {
+    background-image: url('https://i.pinimg.com/originals/3a/ee/19/3aee19ef36c19199dc8ae79c9606ca16.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+ }
+
+ .hero h2 {
+    font-size: 3em;
+    margin: 0;
+    color: black;
+ }
+
+ .hero p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: black;
+ }
+
+ .cta-button {
+    background-color: #606d7a;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+ }
+
+ .cta-button:hover {
+    background-color: #0056b3;
+ }
+
+ 
+ nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+ }
+
+ nav ul {
+    list-style: none;
+    padding: 0;
+ }
+
+ nav ul li {
+    display: inline;
+    margin-right: 20px;
+ }
+
+ nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+ }
+
+
+ footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+ }
